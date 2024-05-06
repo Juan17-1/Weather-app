@@ -52,7 +52,7 @@ function displayWeather(data) {
     const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@4x.png`;
 
     const temperatureHTML = `
-          <p>${temperature}°F</p>
+          <p>${temperature}°C</p>
       `;
 
     const weatherHtml = `
@@ -85,7 +85,7 @@ function displayHourlyForecast(hourlyData) {
           <div class="hourly-item">
               <span>${hour}:00</span>
               <img src="${iconUrl}" alt="Hourly Weather Icon">
-              <span>${temperature}°F</span>
+              <span>${temperature}°C</span>
           </div>
       `;
 
