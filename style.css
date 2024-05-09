@@ -1,5 +1,5 @@
 body {
-  background: #8c52ff;
+  background: midnightblue;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 #weather-container {
-  background: rgba(255, 255, 255, 0.3);
+  background: lightgray;
   max-width: 400px;
   padding: 20px;
   border-radius: 15px;
@@ -22,7 +22,7 @@ body {
 h2,
 label,
 p {
-  color: #fff;
+  color: black;
   margin: 8px 0;
 }
 
@@ -36,7 +36,7 @@ input {
 }
 
 button {
-  background: #debff4;
+  background: black;
   color: white;
   padding: 10px;
   border: none;
@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-  background: #8b48d7;
+  background: #30377a;
 }
 
 #temp-div p {
